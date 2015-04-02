@@ -4,7 +4,7 @@ public class BestScore {
 
 	private int id;
 	private String playerName;
-	private int numberOfTrueAnswers;
+	private int numberOfTrueAnswers; //  jgjkh
 	private int percentOfTrueAnswers;
 
 	public BestScore() {
