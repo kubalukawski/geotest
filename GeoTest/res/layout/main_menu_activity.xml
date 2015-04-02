@@ -1,0 +1,65 @@
+<LinearLayout 
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <ImageView 
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/logo"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        />
+        
+        <ImageButton 
+        android:id="@+id/newGameButton"
+        android:src="@drawable/start_test"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/shape"
+        android:onClick="onClick"
+        
+        />
+        
+    <ImageButton 
+        android:id="@+id/bestResultsButton"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:src="@drawable/best_results"
+        android:background="@drawable/shape"
+        android:onClick="onClick"
+        />
+    
+    <ImageButton 
+        android:id="@+id/exitButton"
+		android:scaleType="centerInside"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:src="@drawable/exit"
+        android:background="@drawable/shape"
+        android:onClick="onClick"
+        />
+    
+</LinearLayout>

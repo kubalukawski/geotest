@@ -1,0 +1,65 @@
+<LinearLayout 
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TextView 
+        android:id="@+id/summation_title"
+        android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+        android:text="@string/summation_title"
+        android:textSize="25sp"
+        android:textColor="@color/button"
+        />
+    
+    <TextView 
+        android:id="@+id/summation_content"
+        android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+        android:text="@string/summation_content"
+        android:textColor="@color/redFalseAnswerColor"
+        android:layout_marginTop="5dp"
+        />
+    
+    <TextView 
+        android:id="@+id/summation_content2"
+        android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+        android:text="@string/summation_content2"
+        android:layout_marginTop="5dp"
+        />
+    
+    <EditText 
+        android:id="@+id/edit_text"
+        android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+        android:hint="@string/get_name"
+        android:lines="1"
+        android:inputType="textPersonName"
+        android:scrollHorizontally="true"
+        android:imeOptions="actionDone"
+        android:maxLength="10"
+        android:layout_marginTop="5dp"
+        />
+    
+	<ImageButton 
+        android:id="@+id/bestResultsButton"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/best_results"
+        android:background="@drawable/shape"
+        android:onClick="onClick"
+        />
+    
+    
+</LinearLayout>

@@ -1,0 +1,18 @@
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <ImageView 
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/logo"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        />
+    
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+	
+	<color name="grey">#333333</color>
+	<color name="pink">#ff00ff</color>
+	
+	<color name="buttonColor">#fbde8a</color>
+	
+	<color name="greenTrueAnswerColor">#00FB23</color>
+	<color name="redFalseAnswerColor">#FB0E00</color>
+	
+	<color name="background">#56a3b0</color>
+	<color name="background_2">#67E2FF</color>
+	<color name="background_3">#5DCBE5</color>
+	<color name="background_4">#34717F</color>
+	<color name="background_5">#4EA9BF</color>
+	
+	<color name="button">#fbde8a</color>
+	<color name="button_2">#FFE28C</color>
+	<color name="button_3">#E5CB7E</color>
+	<color name="button_4">#FBEF70</color>
+	<color name="button_5">#FFF372</color>
+	
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

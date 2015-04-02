@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@color/background"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+   >
+            
+    	<LinearLayout 
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal" >
+    	
+    		<ImageView 
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:src="@drawable/first_place"
+    		    android:layout_gravity="center_vertical"
+    		    android:layout_marginRight="5dp"
+    		    />
+    	   
+    		<LinearLayout 
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical" >
+    		
+        		<TextView 
+    				android:id="@+id/player_name_1"
+   	 				android:text="@string/player_name"
+   	 				android:textSize="20sp"
+   	 				android:textColor="@color/button"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/number_of_true_answers_1"
+   	 				android:text="@string/number_of_true_answers"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/percent_of_true_answers_1"
+   	 				android:text="@string/percent_of_true_answers"
+   	 				android:textColor="@color/redFalseAnswerColor"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        	
+        	</LinearLayout>
+        			
+        </LinearLayout>
+        
+    	
+    	
+        <LinearLayout 
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="5dp"
+    		android:orientation="horizontal" >
+    	
+            <ImageView 
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:src="@drawable/second_place"
+    		    android:layout_gravity="center_vertical"
+    		    android:layout_marginRight="5dp"
+    		    />
+            
+    		<LinearLayout 
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical" >
+    		
+        		<TextView 
+    				android:id="@+id/player_name_2"
+   	 				android:text="@string/player_name"
+   	 				android:textSize="20sp"
+   	 				android:textColor="@color/button"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/number_of_true_answers_2"
+   	 				android:text="@string/number_of_true_answers"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/percent_of_true_answers_2"
+   	 				android:text="@string/percent_of_true_answers"
+   	 				android:textColor="@color/redFalseAnswerColor"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        	
+        	</LinearLayout>    		
+        </LinearLayout>
+        
+        
+<LinearLayout 
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="5dp"
+    		android:orientation="horizontal" >
+    	
+            <ImageView 
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:src="@drawable/third_place"
+    		    android:layout_gravity="center_vertical"
+    		    android:layout_marginRight="5dp"
+    		    />
+            
+    		<LinearLayout 
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical" >
+    		
+        		<TextView 
+    				android:id="@+id/player_name_3"
+   	 				android:text="@string/player_name"
+   	 				android:textSize="20sp"
+   	 				android:textColor="@color/button"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/number_of_true_answers_3"
+   	 				android:text="@string/number_of_true_answers"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/percent_of_true_answers_3"
+   	 				android:text="@string/percent_of_true_answers"
+   	 				android:textColor="@color/redFalseAnswerColor"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        	
+        	</LinearLayout>    		
+        </LinearLayout>
+        
+
+<LinearLayout 
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="5dp"
+    		android:orientation="horizontal" >
+    	
+            <ImageView 
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:src="@drawable/fourth_place"
+    		    android:layout_gravity="center_vertical"
+    		    android:layout_marginRight="5dp"
+    		    />
+            
+    		<LinearLayout 
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical" >
+    		
+        		<TextView 
+    				android:id="@+id/player_name_4"
+   	 				android:text="@string/player_name"
+   	 				android:textSize="20sp"
+   	 				android:textColor="@color/button"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/number_of_true_answers_4"
+   	 				android:text="@string/number_of_true_answers"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/percent_of_true_answers_4"
+   	 				android:text="@string/percent_of_true_answers"
+   	 				android:textColor="@color/redFalseAnswerColor"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        	
+        	</LinearLayout>    		
+        </LinearLayout>
+        
+<LinearLayout 
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="5dp"
+    		android:orientation="horizontal" >
+    	
+            <ImageView 
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:src="@drawable/fifth_place"
+    		    android:layout_gravity="center_vertical"
+    		    android:layout_marginRight="5dp"
+    		    />
+            
+    		<LinearLayout 
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical" >
+    		
+        		<TextView 
+    				android:id="@+id/player_name_5"
+   	 				android:text="@string/player_name"
+   	 				android:textSize="20sp"
+   	 				android:textColor="@color/button"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/number_of_true_answers_5"
+   	 				android:text="@string/number_of_true_answers"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        		
+        		<TextView 
+    				android:id="@+id/percent_of_true_answers_5"
+   	 				android:text="@string/percent_of_true_answers"
+   	 				android:textColor="@color/redFalseAnswerColor"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" />
+        	
+        	</LinearLayout>    		
+        </LinearLayout>
+
+<ImageButton 
+        android:id="@+id/menuImageButton"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/menu"
+        android:background="@drawable/shape"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>
+</ScrollView>
